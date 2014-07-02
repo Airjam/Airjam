@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splashBackground" >
+
+    <View
+        android:id="@+id/leftSide"
+        android:layout_width="480dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFF" />
+    
+    <ImageButton
+	    android:id="@+id/button"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="200dip"
+	    android:layout_height="200dip"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:scaleType="fitCenter"
+		android:padding="15dp"
+	    android:src="@drawable/drum_logo"
+	    android:textSize="25sp"
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginLeft="20dp"
+	    android:background="@drawable/drums_button"
+		/>
+
+	<ImageButton
+	    android:id="@+id/button2"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="200dip"
+	    android:layout_height="200dip"
+	    android:padding="15dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+	    android:src="@drawable/guitar_logo"
+	    android:textSize="15sp"
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginRight="20dp"
+	    android:scaleType="fitCenter"
+	    android:background="@drawable/guitar_button"/>
+	
+	<Button
+	    android:id="@+id/jamButtonSprite"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="200dip"
+	    android:layout_height="200dip"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:scaleType="fitCenter"
+		android:padding="15dp"
+	    android:src="@drawable/drum_logo"
+	    android:textSize="25sp"
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginLeft="20dp"
+	    android:background="@drawable/jam_button"
+		/>
+
+		<Button
+	    android:id="@+id/jamButton"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="200dip"
+	    android:layout_height="200dip"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:scaleType="fitCenter"
+		android:padding="15dp"
+	    android:src="@drawable/drum_logo"
+	    android:textSize="25sp"
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginLeft="20dp"
+	    android:background="@drawable/jam_button"
+		/>
+		
+		<Button
+	    android:id="@+id/configButtonSprite"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="200dip"
+	    android:layout_height="200dip"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:scaleType="fitCenter"
+	    android:textSize="25sp"
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginLeft="20dp"
+	    android:background="@drawable/config_button"
+		/>
+		
+		<Button
+	    android:id="@+id/directionsButtonSprite"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="200dip"
+	    android:layout_height="200dip"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:scaleType="fitCenter"
+	    android:textSize="25sp"
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginLeft="20dp"
+	    android:background="@drawable/directions_button"
+		/>
+		
+		<Button
+	    android:id="@+id/configButton"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="200dip"
+	    android:layout_height="200dip"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:scaleType="fitCenter"
+	    android:textSize="25sp"
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginLeft="20dp"
+	    android:background="@drawable/config_button"
+		/>
+		
+		<Button
+	    android:id="@+id/directionsButton"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="200dip"
+	    android:layout_height="200dip"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:scaleType="fitCenter"
+	    android:textSize="25sp"
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginLeft="20dp"
+	    android:background="@drawable/directions_button"
+		/>
+	
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/resetButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/reset_button_text"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/calibIcon"
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/resetButton"
+        android:src="@drawable/calibration_icon"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/trackingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#ff00ff00"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/cameraLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/renderingLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true" >
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/FPSText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ff00ff00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/warningsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff00ff00" />
+
+</RelativeLayout>
