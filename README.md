@@ -1,1 +1,3 @@
-License key is most probably out of date. Request new one from XTR3D before usage.
+Airjam
+=======
+Play virtual instruments using simple hand gestures in front of your Android camera.
