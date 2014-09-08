@@ -6,3 +6,5 @@ Current version is glitchy.
 Instruments
 - Drums
 - Guitar
+Made at Angelhack SV
+Winner of 2500 dollar cash prize
